@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import inquirer from 'inquirer'
 import getWordList from './dbLookup.js'
 import frequency from './letterFrequency.js'
@@ -28,7 +30,7 @@ async function getLength() {
         const answer = await inquirer.prompt({
             name: 'length',
             type: 'input',
-            message: 'How long is todays word?'
+            message: 'How long is today\'s word?'
         })
         if(answer.length && answer.length > 0) {
             return parseInt(answer.length)
