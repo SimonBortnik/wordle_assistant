@@ -1,0 +1,26 @@
+{
+  "name": "wordle_assistant",
+  "version": "1.0.0",
+  "description": "A CLI that helps you solve the daily wordle",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonBortnik/wordle_assistant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonBortnik/wordle_assistant/issues"
+  },
+  "homepage": "https://github.com/SimonBortnik/wordle_assistant#readme",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "inquirer": "^8.2.0",
+    "sequelize": "^6.16.0",
+    "sqlite3": "^5.0.2"
+  }
+}
