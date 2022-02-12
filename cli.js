@@ -60,7 +60,6 @@ async function getInput() {
                 return
             case 'n':
                 excludedWords.push(currentGuess)
-                console.log(excludedWords)
                 break
             case 'o':
                 const answer = await inquirer.prompt({
