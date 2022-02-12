@@ -9,7 +9,7 @@ On Linux:
 ```shell
 npm install
 chmod +x ./cli.js
-cli.js
+./cli.js
 ```
 On Windows
 ```shell
